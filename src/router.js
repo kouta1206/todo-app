@@ -1,18 +1,16 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import Detail from './views/Detail.vue';
+import Vue from "vue";
+import VueRouter from "vue-router";
+import Home from "./views/Home.vue";
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 export default new VueRouter({
-  mode: 'history',
+  mode: "history",
   routes: [
-
     {
-      path: '/detail/:id',
-      name: 'detail',
-      component: Detail
+      path: "/",
+      name: "home",
+      component: Home,
     },
-  ]
-})
-
+  ],
+});
