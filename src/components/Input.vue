@@ -108,6 +108,8 @@ export default {
   padding: 2rem;
 }
 
+
+
 .slide-up-button-enter-active,
 .slide-up-leave-active {
   transform: translate(0, 400px);
